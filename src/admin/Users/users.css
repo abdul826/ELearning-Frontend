@@ -1,0 +1,230 @@
+.users {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  thead td {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  tbody td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  button.common-btn {
+    background-color: #7710c0a2;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 2px;
+  }
+  
+  button.common-btn:hover {
+    border: 1px solid #7710c0a2;
+    
+  }
+  
+  @media (max-width: 768px) {
+    thead {
+      display: none;
+    }
+    
+    tbody, tbody tr, tbody td {
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    tbody tr {
+      margin-bottom: 10px;
+    }
+    
+    tbody td {
+      text-align: right;
+      position: relative;
+      padding-left: 50%;
+      padding-bottom: 10px;
+      font-size: 14px;
+    }
+  
+    tbody td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;.users {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      
+      thead {
+        background-color: #007bff;
+        color: #fff;
+      }
+      
+      thead tr {
+        border-bottom: 2px solid #0056b3;
+      }
+      
+      thead td {
+        padding: 12px;
+        text-align: left;
+        font-weight: bold;
+      }
+      
+      tbody tr {
+        border-bottom: 1px solid #ddd;
+      }
+      
+      tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      
+      tbody tr:hover {
+        background-color: #eaeaea;
+      }
+      
+      tbody td {
+        padding: 12px;
+        text-align: left;
+      }
+      
+      button.common-btn {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      button.common-btn:hover {
+        background-color: #218838;
+      }
+      
+      @media (max-width: 768px) {
+        thead {
+          display: none;
+        }
+      
+        tbody, tbody tr {
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+          border-bottom: 1px solid #ddd;
+        }
+      
+        tbody td {
+          display: block;
+          width: calc(100% - 20px);
+          padding: 10px;
+          text-align: right;
+          position: relative;
+          padding-left: 50%;
+          font-size: 14px;
+        }
+      
+        tbody td::before {
+          content: attr(data-label);
+          position: absolute;
+          left: 0;
+          width: 50%;
+          padding-left: 10px;
+          font-weight: bold;
+          white-space: nowrap;
+          color: #555;
+        }
+      
+        tbody tr {
+          border: none;
+          margin-bottom: 15px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 24px;
+        }
+      
+        table, tbody, thead, td, th {
+          display: block;
+        }
+      
+        td {
+          text-align: left;
+          padding-left: 50%;
+          position: relative;
+          font-size: 12px;
+        }
+      
+        td::before {
+          content: attr(data-label);
+          position: absolute;
+          left: 0;
+          width: 50%;
+          padding-left: 10px;
+          font-weight: bold;
+          color: #333;
+        }
+      
+        button.common-btn {
+          padding: 6px 12px;
+          font-size: 12px;
+        }
+      }
+      padding-left: 10px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+  }
